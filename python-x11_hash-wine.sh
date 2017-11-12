@@ -5,7 +5,7 @@ cat  > ./.build-x11_hash.sh <<EOF
 cd /opt/x11_hash; wine python setup.py build
 EOF
 
-docker run --rm -t --privileged -v $(pwd):/opt \
+sudo docker run --rm -t --privileged -v $(pwd):/opt \
        -e WINEPREFIX="/wine/wine-py2.7.8-32" \
        ogrisel/python-winbuilder \
        sh /opt/.build-x11_hash.sh

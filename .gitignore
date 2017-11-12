@@ -89,7 +89,7 @@ ENV/
 .ropeproject
 
 # Electrum repo
-electrum-dash
+electrum-ion
 *~*
 /.build-trezor.bat
 /.build-trezor.sh
@@ -97,3 +97,4 @@ electrum-dash
 /cython-hidapi/
 /python-trezor/
 /x11_hash/
+/.idea/

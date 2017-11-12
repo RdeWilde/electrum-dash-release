@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cython-hidapi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cython-hidapi/hidapi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electrum-ion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python-trezor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x11_hash" vcs="Git" />
+  </component>
+</project>

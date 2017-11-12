@@ -15,7 +15,7 @@ cd /opt/python-trezor; wine python setup.py build install bdist
 EOF
 
 mkdir -p python-trezor/dist  # make sure it's owned by current user
-docker run --rm -t --privileged  -v $(pwd):/opt \
+sudo docker run --rm -t --privileged  -v $(pwd):/opt \
        -e WINEPREFIX="/wine/wine-py2.7.8-32" \
        ogrisel/python-winbuilder \
        sh /opt/.build-trezor.sh
